@@ -1,0 +1,57 @@
+/*textを中央揃え*/
+h1,h2,p {
+  text-align: center;
+}
+
+
+/*名前、血液型、好きな食べ物をピンク*/
+.text-pink {
+  color: pink;
+}
+
+/*生年月日、趣味、プログラミングを始めた理由をスカイブルー*/
+.text-blue {
+  color: skyblue;
+}
+
+/*侍太郎、1990年1月1日、O型を太字*/
+#basic p {
+  font-weight: bold
+}
+
+/*bodyのフォントの種類を指定*/
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+}
+
+
+/*ルート要素のフォントサイズを20pxに指定*/
+html {
+  font-size: 20px;
+}
+
+/*MY PROFILEのフォントをgoogleフォントへ*/
+.google-fonts {
+  font-family: 'Josefin Sans', サンセリフ体,'Noto Sans JP', サンセリフ体;
+}
+
+
+/*MY PROFILE のMを指定の色へ*/
+.text-colorpink {
+  color: rgb(255, 192, 203);
+}
+
+/*MY PROFILEの下に線*/
+.under-bar {
+  border-bottom: solid 3px rgb(115, 115, 114);
+  letter-spacing: 1.2em;
+  text-shadow: 2px 2px 2px gray;
+  font-size: 2rem;
+  text-justify: inter-ideograph;
+}
+
+
+
+
+
+
