@@ -1,0 +1,73 @@
+#head {
+  background-color: rgb(244, 79, 79);
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+#parent {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content:space-around;
+
+}
+.contents {
+  border: solid 3px rgb(238, 204, 204);
+  flex-basis: 25%;
+  justify-content: center;
+  padding: 10px 15px;
+  margin: 20px 0px;
+  text-align: center;
+
+}
+
+
+
+/*フッター*/
+#foot {
+  margin: 0;
+  font-size: 20px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color: rgb(255, 255, 255);
+
+}
+
+a:hover {
+  color: rgb(193, 234, 251);
+}
+
+
+
+a:visited{
+  color: purple;
+}
+
+@media screen and (max-width: 768px) {
+  #view {
+      display: block;
+      h2 { 
+        font-size: 30px;
+      }
+      p {
+        font-size: 25px;
+      }
+      
+  }
+}
+
